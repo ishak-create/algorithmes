@@ -69,7 +69,7 @@ def interp_hermite(x_en,y_en,y_prime,x):
 x_en=np.array([-np.pi, -np.pi/2, 0, np.pi/2, np.pi])
 y_en = f(x_en)
 y_prime=f_prime(x_en)
-# on teste la fonction interpolante par des points dans [-2,2]
+# l'axe des x
 x = np.linspace(-np.pi, np.pi, 100)
 # Fonction originale
 y_original = f(x)
